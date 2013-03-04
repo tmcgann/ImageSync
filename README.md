@@ -1,7 +1,7 @@
 ImageSync
 =========
 
-ImageSync is a library I developed to facilitate the synchronization of images based on a database timestamp. ImageSync compares the device's local image timestamps (stored in a property list) with those of the remote server and downloads any new/updated images asynchronously. After all images are downloaded, ImageSync updates the image timestamp record for future synchronization.
+ImageSync is an Objective-C/iOS library I developed to facilitate the synchronization of images based on a database timestamp. ImageSync compares the device's local image timestamps (stored in a property list) with those of the remote server and downloads any new/updated images asynchronously. After all images are downloaded, ImageSync updates the image timestamp record for future synchronization.
 
 Eventually I hope to encapsulate the dispatching of asynchronous threads in the ImageSync library, as opposed to having the user/developer write this code. However, in its current state, the code gives the developer granular control over multi-threading functionality.
 
