@@ -1,6 +1,5 @@
 //
 //  TMImageSync.h
-//  CityApp
 //
 //  Created by Taylor McGann on 2/24/13.
 //  Copyright (c) 2013 Taylor McGann. All rights reserved.
